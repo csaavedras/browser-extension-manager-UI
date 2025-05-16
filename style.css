@@ -1,0 +1,101 @@
+@import url("reset.css");
+@import url("switch.css");
+
+body {
+    background: linear-gradient(180deg, #EBF2FC 0%, #EEF8F9 100%);
+    box-sizing: border-box
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+    max-width: 1200px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 1px 6px 12px -4px rgba(31,31,31,0.75);
+    -webkit-box-shadow: 1px 6px 12px -4px rgba(31,31,31,0.75);
+    -moz-box-shadow: 1px 6px 12px -4px rgba(31,31,31,0.75);
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 1200px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.top-section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.top-section-btns{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button {
+    border-radius: 1rem;
+    padding: 0.5em 1em;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: red;
+    color: white;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 1rem;
+}
+.card {
+  background-color: white;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+.top-card {
+    display:flex;
+    gap: 1rem;
+}
+
+.text-card {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.text-card span {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.bottom-card {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
